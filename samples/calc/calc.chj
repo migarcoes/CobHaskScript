@@ -1,0 +1,13 @@
+PROGRAM-ID. BasicCalculator.
+
+MAIN:
+    DISPLAY "Ingrese el primer número: "
+    INPUT num1
+    DISPLAY "Ingrese la operación (+, -, *, /): "
+    INPUT op
+    DISPLAY "Ingrese el segundo número: "
+    INPUT num2
+    result = CALC(num1, op, num2)
+    DISPLAY "El resultado es: "
+    DISPLAY result
+    END
