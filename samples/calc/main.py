@@ -26,4 +26,6 @@ MAIN:
     END'''
     
     # Compilar a JavaScript
-    js_code
+    js_code = compile_chj_to_js(code)
+    print("Generated JavaScript code:")
+    print(js_code)
